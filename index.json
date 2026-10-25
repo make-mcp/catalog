@@ -1,0 +1,78 @@
+{
+  "entries": [
+    {
+      "name": "daisyui",
+      "title": "daisyUI",
+      "description": "Tailwind CSS component library: components, class names, themes and examples.",
+      "target": "daisyui",
+      "tags": [
+        "ui",
+        "css",
+        "tailwind"
+      ]
+    },
+    {
+      "name": "drizzle-orm",
+      "title": "Drizzle ORM",
+      "description": "Drizzle ORM: schema, queries, migrations and drivers.",
+      "target": "drizzle-orm",
+      "tags": [
+        "database",
+        "orm",
+        "typescript"
+      ]
+    },
+    {
+      "name": "hono",
+      "title": "Hono",
+      "description": "Hono web framework for any JavaScript runtime: routing, middleware, helpers.",
+      "target": "hono",
+      "tags": [
+        "framework",
+        "http",
+        "javascript"
+      ]
+    },
+    {
+      "name": "svelte",
+      "title": "Svelte",
+      "description": "Svelte and SvelteKit documentation for the version in your lockfile.",
+      "target": "svelte",
+      "tags": [
+        "framework",
+        "javascript"
+      ]
+    },
+    {
+      "name": "swagger-petstore",
+      "title": "Swagger Petstore",
+      "description": "Example REST API from its OpenAPI 3 spec – a quick way to try API servers.",
+      "target": "https://petstore3.swagger.io/api/v3/openapi.json",
+      "tags": [
+        "api",
+        "example",
+        "openapi"
+      ]
+    },
+    {
+      "name": "vitest",
+      "title": "Vitest",
+      "description": "Vitest testing framework: API, configuration, mocking, coverage.",
+      "target": "vitest",
+      "tags": [
+        "testing",
+        "javascript"
+      ]
+    },
+    {
+      "name": "zod",
+      "title": "Zod",
+      "description": "Zod schema validation: types, parsing, error handling.",
+      "target": "zod",
+      "tags": [
+        "validation",
+        "typescript"
+      ]
+    }
+  ]
+}

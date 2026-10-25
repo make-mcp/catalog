@@ -1,0 +1,19 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "hono",
+  "title": "Hono",
+  "description": "Hono web framework for any JavaScript runtime: routing, middleware, helpers.",
+  "target": "hono",
+  "tags": [
+    "framework",
+    "http",
+    "javascript"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://hono.dev/llms-full.txt"
+  }
+}

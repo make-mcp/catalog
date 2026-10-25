@@ -1,0 +1,16 @@
+{
+  "name": "zod",
+  "description": "Zod MCP server for the version your project uses – Zod schema validation: types, parsing, error handling.",
+  "version": "1.0.0",
+  "author": {
+    "name": "make-mcp community"
+  },
+  "homepage": "https://github.com/make-mcp/catalog/blob/main/entries/zod.json",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "make-mcp",
+    "validation",
+    "typescript"
+  ]
+}

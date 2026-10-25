@@ -1,0 +1,17 @@
+{
+  "name": "daisyui",
+  "description": "daisyUI MCP server for the version your project uses – Tailwind CSS component library: components, class names, themes and examples.",
+  "version": "1.0.0",
+  "author": {
+    "name": "make-mcp community"
+  },
+  "homepage": "https://github.com/make-mcp/catalog/blob/main/entries/daisyui.json",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "make-mcp",
+    "ui",
+    "css",
+    "tailwind"
+  ]
+}

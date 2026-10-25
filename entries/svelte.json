@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "svelte",
+  "title": "Svelte",
+  "description": "Svelte and SvelteKit documentation for the version in your lockfile.",
+  "target": "svelte",
+  "tags": [
+    "framework",
+    "javascript"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://svelte.dev/llms-full.txt"
+  }
+}

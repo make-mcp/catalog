@@ -1,0 +1,19 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "drizzle-orm",
+  "title": "Drizzle ORM",
+  "description": "Drizzle ORM: schema, queries, migrations and drivers.",
+  "target": "drizzle-orm",
+  "tags": [
+    "database",
+    "orm",
+    "typescript"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://orm.drizzle.team/llms-full.txt"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "svelte",
+  "description": "Svelte MCP server for the version your project uses – Svelte and SvelteKit documentation for the version in your lockfile.",
+  "version": "1.0.0",
+  "author": {
+    "name": "make-mcp community"
+  },
+  "homepage": "https://github.com/make-mcp/catalog/blob/main/entries/svelte.json",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "make-mcp",
+    "framework",
+    "javascript"
+  ]
+}

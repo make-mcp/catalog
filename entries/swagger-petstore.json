@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "swagger-petstore",
+  "title": "Swagger Petstore",
+  "description": "Example REST API from its OpenAPI 3 spec \u2013 a quick way to try API servers.",
+  "target": "https://petstore3.swagger.io/api/v3/openapi.json",
+  "tags": [
+    "api",
+    "example",
+    "openapi"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "api"
+  }
+}

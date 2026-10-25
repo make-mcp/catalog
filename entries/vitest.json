@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "vitest",
+  "title": "Vitest",
+  "description": "Vitest testing framework: API, configuration, mocking, coverage.",
+  "target": "vitest",
+  "tags": [
+    "testing",
+    "javascript"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://vitest.dev/llms-full.txt"
+  }
+}

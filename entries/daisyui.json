@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "daisyui",
+  "title": "daisyUI",
+  "description": "Tailwind CSS component library: components, class names, themes and examples.",
+  "target": "daisyui",
+  "tags": [
+    "ui",
+    "css",
+    "tailwind"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "make-mcp-catalog",
+  "owner": {
+    "name": "make-mcp",
+    "url": "https://make-mcp.net"
+  },
+  "metadata": {
+    "description": "MCP servers for free software, generated on your machine for the version your project uses."
+  },
+  "plugins": [
+    {
+      "name": "daisyui",
+      "source": "./plugins/daisyui",
+      "description": "Tailwind CSS component library: components, class names, themes and examples."
+    },
+    {
+      "name": "drizzle-orm",
+      "source": "./plugins/drizzle-orm",
+      "description": "Drizzle ORM: schema, queries, migrations and drivers."
+    },
+    {
+      "name": "hono",
+      "source": "./plugins/hono",
+      "description": "Hono web framework for any JavaScript runtime: routing, middleware, helpers."
+    },
+    {
+      "name": "svelte",
+      "source": "./plugins/svelte",
+      "description": "Svelte and SvelteKit documentation for the version in your lockfile."
+    },
+    {
+      "name": "swagger-petstore",
+      "source": "./plugins/swagger-petstore",
+      "description": "Example REST API from its OpenAPI 3 spec – a quick way to try API servers."
+    },
+    {
+      "name": "vitest",
+      "source": "./plugins/vitest",
+      "description": "Vitest testing framework: API, configuration, mocking, coverage."
+    },
+    {
+      "name": "zod",
+      "source": "./plugins/zod",
+      "description": "Zod schema validation: types, parsing, error handling."
+    }
+  ]
+}

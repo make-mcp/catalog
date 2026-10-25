@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "zod",
+  "title": "Zod",
+  "description": "Zod schema validation: types, parsing, error handling.",
+  "target": "zod",
+  "tags": [
+    "validation",
+    "typescript"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://zod.dev/llms-full.txt"
+  }
+}

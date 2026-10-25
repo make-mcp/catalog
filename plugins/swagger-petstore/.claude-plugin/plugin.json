@@ -1,0 +1,17 @@
+{
+  "name": "swagger-petstore",
+  "description": "Swagger Petstore MCP server for the version your project uses – Example REST API from its OpenAPI 3 spec – a quick way to try API servers.",
+  "version": "1.0.0",
+  "author": {
+    "name": "make-mcp community"
+  },
+  "homepage": "https://github.com/make-mcp/catalog/blob/main/entries/swagger-petstore.json",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "make-mcp",
+    "api",
+    "example",
+    "openapi"
+  ]
+}

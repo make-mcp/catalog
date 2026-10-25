@@ -1,0 +1,71 @@
+name: Validate
+
+# Every entry must still produce a working server: changed entries on pull requests, all of them weekly.
+# Nothing generated here is published – the catalog only holds answers, never documentation.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/build.mjs --check
+
+  build:
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: astral-sh/setup-uv@v6
+      - name: Pick entries
+        id: pick
+        env:
+          EVENT: ${{ github.event_name }}
+          BASE: ${{ github.base_ref }}
+        run: |
+          if [ "$EVENT" = "pull_request" ]; then
+            names=$(git diff --name-only "origin/$BASE...HEAD" -- entries/ | sed -n 's#^entries/\([a-z0-9-]*\)\.json$#\1#p')
+          else
+            names=$(ls entries | sed -n 's#^\([a-z0-9-]*\)\.json$#\1#p')
+          fi
+          echo "names=$(echo $names)" >> "$GITHUB_OUTPUT"
+      - name: Generate and smoke-test
+        env:
+          NAMES: ${{ steps.pick.outputs.names }}
+        run: |
+          echo "| entry | result |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|---|---|" >> "$GITHUB_STEP_SUMMARY"
+          failed=0
+          for name in $NAMES; do
+            [ -f "entries/$name.json" ] || continue
+            if grep -q '"docsSource": "extract"' "entries/$name.json"; then
+              echo "| $name | skipped (needs an LLM) |" >> "$GITHUB_STEP_SUMMARY"; continue
+            fi
+            mapfile -t args < <(node scripts/build.mjs --args "$name")
+            if npx -y @make-mcp/cli@latest generate "${args[@]}" --register none --out "out/$name" --yes \
+              && npx -y @make-mcp/cli@latest test "out/$name" > "out/$name.test.json"; then
+              tools=$(node -p "require('./out/$name.test.json').tools.length")
+              echo "| $name | ✓ $tools tools |" >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo "| $name | ✗ failed |" >> "$GITHUB_STEP_SUMMARY"; failed=1
+            fi
+          done
+          exit $failed

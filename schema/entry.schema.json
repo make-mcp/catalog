@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/make-mcp/catalog/main/schema/entry.schema.json",
+  "title": "make-mcp catalog entry",
+  "description": "Curated intake answers for one library, product or API. Never copy documentation into an entry.",
+  "type": "object",
+  "required": ["name", "title", "description", "target", "maintainers"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "name": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,62}$", "description": "Unique id, equals the file name" },
+    "title": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1, "maxLength": 300 },
+    "target": { "type": "string", "minLength": 1, "description": "Package name (npm/PyPI) or URL of docs, llms.txt or an OpenAPI spec" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "maintainers": { "type": "array", "minItems": 1, "items": { "type": "string" }, "description": "GitHub handles" },
+    "notes": { "type": "string", "description": "Shown to the user during the intake" },
+    "answers": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mode": { "enum": ["docs", "api", "both"] },
+        "docsSource": { "type": "string", "description": "Docs, llms.txt or OpenAPI URL, or \"extract\"" },
+        "codeSource": { "type": "string", "description": "Repository URL" },
+        "auth": { "enum": ["none", "apiKey", "bearer", "basic", "oauth2"] },
+        "scope": { "type": "string", "description": "\"all\" or comma-separated OpenAPI tags" },
+        "language": { "enum": ["ts", "py"] },
+        "transport": { "enum": ["stdio", "http"] },
+        "tools": { "enum": ["endpoints", "grouped"] }
+      }
+    }
+  }
+}
