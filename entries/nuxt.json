@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "nuxt",
+  "title": "Nuxt",
+  "description": "Nuxt framework: directory structure, data fetching, modules, deployment.",
+  "target": "nuxt",
+  "tags": [
+    "framework",
+    "vue"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://nuxt.com/llms-full.txt"
+  }
+}

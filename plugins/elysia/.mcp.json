@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "elysia": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@make-mcp/cli@^0.4.0",
+        "run",
+        "catalog:elysia"
+      ]
+    }
+  }
+}

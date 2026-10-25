@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "vue",
+  "title": "Vue",
+  "description": "Vue 3 guide and API: components, reactivity, composition API.",
+  "target": "vue",
+  "tags": [
+    "framework",
+    "ui"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://vuejs.org/llms-full.txt"
+  }
+}

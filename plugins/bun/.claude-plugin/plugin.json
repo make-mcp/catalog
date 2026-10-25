@@ -1,0 +1,16 @@
+{
+  "name": "bun",
+  "description": "Bun MCP server for the version your project uses – Bun runtime, bundler, test runner and package manager.",
+  "version": "1.0.0",
+  "author": {
+    "name": "make-mcp community"
+  },
+  "homepage": "https://github.com/make-mcp/catalog/blob/main/entries/bun.json",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "make-mcp",
+    "runtime",
+    "javascript"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "pydantic",
+  "title": "Pydantic",
+  "description": "Pydantic data validation for Python: models, validators, serialization.",
+  "target": "pydantic",
+  "tags": [
+    "python",
+    "validation"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://docs.pydantic.dev/latest/llms-full.txt",
+    "language": "py"
+  }
+}

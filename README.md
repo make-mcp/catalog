@@ -43,6 +43,17 @@ npx @make-mcp/cli create catalog:daisyui      # generate a server you own and ca
 | [drizzle-orm](entries/drizzle-orm.json) | Drizzle ORM |
 | [zod](entries/zod.json) | Zod schema validation |
 | [vitest](entries/vitest.json) | Vitest testing framework |
+| [next](entries/next.json) | Next.js |
+| [react](entries/react.json) | React |
+| [vue](entries/vue.json) | Vue 3 |
+| [nuxt](entries/nuxt.json) | Nuxt |
+| [prisma](entries/prisma.json) | Prisma ORM |
+| [pydantic](entries/pydantic.json) | Pydantic (Python) |
+| [mantine](entries/mantine.json) | Mantine React components |
+| [elysia](entries/elysia.json) | Elysia (Bun) |
+| [trpc](entries/trpc.json) | tRPC |
+| [bun](entries/bun.json) | Bun runtime |
+| [expo](entries/expo.json) | Expo / React Native |
 | [swagger-petstore](entries/swagger-petstore.json) | Example REST API from its OpenAPI spec |
 
 ## Add an entry

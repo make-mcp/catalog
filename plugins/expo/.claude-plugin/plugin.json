@@ -1,0 +1,16 @@
+{
+  "name": "expo",
+  "description": "Expo MCP server for the version your project uses – Expo and React Native: SDK modules, router, EAS builds.",
+  "version": "1.0.0",
+  "author": {
+    "name": "make-mcp community"
+  },
+  "homepage": "https://github.com/make-mcp/catalog/blob/main/entries/expo.json",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "make-mcp",
+    "mobile",
+    "react-native"
+  ]
+}

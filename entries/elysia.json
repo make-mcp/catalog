@@ -1,0 +1,19 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "elysia",
+  "title": "Elysia",
+  "description": "Elysia web framework for Bun: routing, validation, plugins.",
+  "target": "elysia",
+  "tags": [
+    "framework",
+    "http",
+    "bun"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://elysiajs.com/llms-full.txt"
+  }
+}

@@ -1,6 +1,16 @@
 {
   "entries": [
     {
+      "name": "bun",
+      "title": "Bun",
+      "description": "Bun runtime, bundler, test runner and package manager.",
+      "target": "bun",
+      "tags": [
+        "runtime",
+        "javascript"
+      ]
+    },
+    {
       "name": "daisyui",
       "title": "daisyUI",
       "description": "Tailwind CSS component library: components, class names, themes and examples.",
@@ -23,6 +33,27 @@
       ]
     },
     {
+      "name": "elysia",
+      "title": "Elysia",
+      "description": "Elysia web framework for Bun: routing, validation, plugins.",
+      "target": "elysia",
+      "tags": [
+        "framework",
+        "http",
+        "bun"
+      ]
+    },
+    {
+      "name": "expo",
+      "title": "Expo",
+      "description": "Expo and React Native: SDK modules, router, EAS builds.",
+      "target": "expo",
+      "tags": [
+        "mobile",
+        "react-native"
+      ]
+    },
+    {
       "name": "hono",
       "title": "Hono",
       "description": "Hono web framework for any JavaScript runtime: routing, middleware, helpers.",
@@ -30,6 +61,66 @@
       "tags": [
         "framework",
         "http",
+        "javascript"
+      ]
+    },
+    {
+      "name": "mantine",
+      "title": "Mantine",
+      "description": "Mantine React components and hooks.",
+      "target": "@mantine/core",
+      "tags": [
+        "ui",
+        "react"
+      ]
+    },
+    {
+      "name": "next",
+      "title": "Next.js",
+      "description": "Next.js App Router and Pages Router: routing, data fetching, caching, configuration.",
+      "target": "next",
+      "tags": [
+        "framework",
+        "react"
+      ]
+    },
+    {
+      "name": "nuxt",
+      "title": "Nuxt",
+      "description": "Nuxt framework: directory structure, data fetching, modules, deployment.",
+      "target": "nuxt",
+      "tags": [
+        "framework",
+        "vue"
+      ]
+    },
+    {
+      "name": "prisma",
+      "title": "Prisma ORM",
+      "description": "Prisma ORM: schema, client queries, migrations, databases.",
+      "target": "prisma",
+      "tags": [
+        "database",
+        "orm"
+      ]
+    },
+    {
+      "name": "pydantic",
+      "title": "Pydantic",
+      "description": "Pydantic data validation for Python: models, validators, serialization.",
+      "target": "pydantic",
+      "tags": [
+        "python",
+        "validation"
+      ]
+    },
+    {
+      "name": "react",
+      "title": "React",
+      "description": "React APIs, hooks and guides from react.dev.",
+      "target": "react",
+      "tags": [
+        "ui",
         "javascript"
       ]
     },
@@ -55,6 +146,16 @@
       ]
     },
     {
+      "name": "trpc",
+      "title": "tRPC",
+      "description": "tRPC: end-to-end typesafe APIs – routers, procedures, clients.",
+      "target": "@trpc/server",
+      "tags": [
+        "api",
+        "typescript"
+      ]
+    },
+    {
       "name": "vitest",
       "title": "Vitest",
       "description": "Vitest testing framework: API, configuration, mocking, coverage.",
@@ -62,6 +163,16 @@
       "tags": [
         "testing",
         "javascript"
+      ]
+    },
+    {
+      "name": "vue",
+      "title": "Vue",
+      "description": "Vue 3 guide and API: components, reactivity, composition API.",
+      "target": "vue",
+      "tags": [
+        "framework",
+        "ui"
       ]
     },
     {

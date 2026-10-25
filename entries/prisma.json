@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "prisma",
+  "title": "Prisma ORM",
+  "description": "Prisma ORM: schema, client queries, migrations, databases.",
+  "target": "prisma",
+  "tags": [
+    "database",
+    "orm"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://www.prisma.io/docs/llms-full.txt"
+  }
+}

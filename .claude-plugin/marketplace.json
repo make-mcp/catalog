@@ -9,6 +9,11 @@
   },
   "plugins": [
     {
+      "name": "bun",
+      "source": "./plugins/bun",
+      "description": "Bun runtime, bundler, test runner and package manager."
+    },
+    {
       "name": "daisyui",
       "source": "./plugins/daisyui",
       "description": "Tailwind CSS component library: components, class names, themes and examples."
@@ -19,9 +24,49 @@
       "description": "Drizzle ORM: schema, queries, migrations and drivers."
     },
     {
+      "name": "elysia",
+      "source": "./plugins/elysia",
+      "description": "Elysia web framework for Bun: routing, validation, plugins."
+    },
+    {
+      "name": "expo",
+      "source": "./plugins/expo",
+      "description": "Expo and React Native: SDK modules, router, EAS builds."
+    },
+    {
       "name": "hono",
       "source": "./plugins/hono",
       "description": "Hono web framework for any JavaScript runtime: routing, middleware, helpers."
+    },
+    {
+      "name": "mantine",
+      "source": "./plugins/mantine",
+      "description": "Mantine React components and hooks."
+    },
+    {
+      "name": "next",
+      "source": "./plugins/next",
+      "description": "Next.js App Router and Pages Router: routing, data fetching, caching, configuration."
+    },
+    {
+      "name": "nuxt",
+      "source": "./plugins/nuxt",
+      "description": "Nuxt framework: directory structure, data fetching, modules, deployment."
+    },
+    {
+      "name": "prisma",
+      "source": "./plugins/prisma",
+      "description": "Prisma ORM: schema, client queries, migrations, databases."
+    },
+    {
+      "name": "pydantic",
+      "source": "./plugins/pydantic",
+      "description": "Pydantic data validation for Python: models, validators, serialization."
+    },
+    {
+      "name": "react",
+      "source": "./plugins/react",
+      "description": "React APIs, hooks and guides from react.dev."
     },
     {
       "name": "svelte",
@@ -34,9 +79,19 @@
       "description": "Example REST API from its OpenAPI 3 spec – a quick way to try API servers."
     },
     {
+      "name": "trpc",
+      "source": "./plugins/trpc",
+      "description": "tRPC: end-to-end typesafe APIs – routers, procedures, clients."
+    },
+    {
       "name": "vitest",
       "source": "./plugins/vitest",
       "description": "Vitest testing framework: API, configuration, mocking, coverage."
+    },
+    {
+      "name": "vue",
+      "source": "./plugins/vue",
+      "description": "Vue 3 guide and API: components, reactivity, composition API."
     },
     {
       "name": "zod",

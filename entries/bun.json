@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "bun",
+  "title": "Bun",
+  "description": "Bun runtime, bundler, test runner and package manager.",
+  "target": "bun",
+  "tags": [
+    "runtime",
+    "javascript"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://bun.sh/llms-full.txt"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "next",
+  "description": "Next.js MCP server for the version your project uses – Next.js App Router and Pages Router: routing, data fetching, caching, configuration.",
+  "version": "1.0.0",
+  "author": {
+    "name": "make-mcp community"
+  },
+  "homepage": "https://github.com/make-mcp/catalog/blob/main/entries/next.json",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "make-mcp",
+    "framework",
+    "react"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "next",
+  "title": "Next.js",
+  "description": "Next.js App Router and Pages Router: routing, data fetching, caching, configuration.",
+  "target": "next",
+  "tags": [
+    "framework",
+    "react"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://nextjs.org/docs/llms-full.txt"
+  }
+}

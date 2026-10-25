@@ -1,0 +1,16 @@
+{
+  "name": "nuxt",
+  "description": "Nuxt MCP server for the version your project uses – Nuxt framework: directory structure, data fetching, modules, deployment.",
+  "version": "1.0.0",
+  "author": {
+    "name": "make-mcp community"
+  },
+  "homepage": "https://github.com/make-mcp/catalog/blob/main/entries/nuxt.json",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "make-mcp",
+    "framework",
+    "vue"
+  ]
+}

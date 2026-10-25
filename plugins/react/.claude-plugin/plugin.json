@@ -1,0 +1,16 @@
+{
+  "name": "react",
+  "description": "React MCP server for the version your project uses – React APIs, hooks and guides from react.dev.",
+  "version": "1.0.0",
+  "author": {
+    "name": "make-mcp community"
+  },
+  "homepage": "https://github.com/make-mcp/catalog/blob/main/entries/react.json",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "make-mcp",
+    "ui",
+    "javascript"
+  ]
+}

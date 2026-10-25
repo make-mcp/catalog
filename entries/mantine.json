@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "mantine",
+  "title": "Mantine",
+  "description": "Mantine React components and hooks.",
+  "target": "@mantine/core",
+  "tags": [
+    "ui",
+    "react"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://mantine.dev/llms-full.txt"
+  }
+}

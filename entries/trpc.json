@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "trpc",
+  "title": "tRPC",
+  "description": "tRPC: end-to-end typesafe APIs \u2013 routers, procedures, clients.",
+  "target": "@trpc/server",
+  "tags": [
+    "api",
+    "typescript"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://trpc.io/llms-full.txt"
+  }
+}

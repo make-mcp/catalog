@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "react",
+  "title": "React",
+  "description": "React APIs, hooks and guides from react.dev.",
+  "target": "react",
+  "tags": [
+    "ui",
+    "javascript"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://react.dev/llms.txt"
+  }
+}

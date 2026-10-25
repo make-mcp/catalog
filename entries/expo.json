@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema/entry.schema.json",
+  "name": "expo",
+  "title": "Expo",
+  "description": "Expo and React Native: SDK modules, router, EAS builds.",
+  "target": "expo",
+  "tags": [
+    "mobile",
+    "react-native"
+  ],
+  "maintainers": [
+    "make-mcp"
+  ],
+  "answers": {
+    "mode": "docs",
+    "docsSource": "https://docs.expo.dev/llms-full.txt"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "vue",
+  "description": "Vue MCP server for the version your project uses – Vue 3 guide and API: components, reactivity, composition API.",
+  "version": "1.0.0",
+  "author": {
+    "name": "make-mcp community"
+  },
+  "homepage": "https://github.com/make-mcp/catalog/blob/main/entries/vue.json",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "make-mcp",
+    "framework",
+    "ui"
+  ]
+}

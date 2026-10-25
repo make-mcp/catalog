@@ -1,0 +1,16 @@
+{
+  "name": "mantine",
+  "description": "Mantine MCP server for the version your project uses – Mantine React components and hooks.",
+  "version": "1.0.0",
+  "author": {
+    "name": "make-mcp community"
+  },
+  "homepage": "https://github.com/make-mcp/catalog/blob/main/entries/mantine.json",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "make-mcp",
+    "ui",
+    "react"
+  ]
+}
