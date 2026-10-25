@@ -17,8 +17,11 @@ or downloaded locally – exactly as if you had run make-mcp yourself.
 ```
 
 The plugin starts `npx @make-mcp/cli run catalog:daisyui` in your project: on first start it builds the server for the
-version your project uses (cached in `~/.cache/make-mcp/servers`), afterwards it starts instantly. To build ahead of
-time, e.g. if your client has a short start-up timeout:
+version your project uses (cached in `~/.cache/make-mcp/servers`), afterwards it starts instantly. Besides the docs tools
+it offers `changes_since` (release notes after your version) and `get_signature` (exact signatures from the installed
+package) where the data exists.
+
+To build ahead of time, e.g. if your client has a short start-up timeout:
 
 ```bash
 npx @make-mcp/cli run catalog:daisyui --prepare
