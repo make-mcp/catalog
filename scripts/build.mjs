@@ -12,7 +12,7 @@ import process from "node:process";
 import { fileURLToPath } from "node:url";
 
 /** CLI version the plugins start; `make-mcp run` needs ≥ 0.4.0. */
-const CLI = "@make-mcp/cli@^0.4.0";
+const CLI = "@make-mcp/cli@^0.5.0";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 const ANSWERS = {

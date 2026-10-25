@@ -4,7 +4,7 @@
       "command": "npx",
       "args": [
         "-y",
-        "@make-mcp/cli@^0.4.0",
+        "@make-mcp/cli@^0.5.0",
         "run",
         "catalog:expo"
       ]
